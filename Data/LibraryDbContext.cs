@@ -1,0 +1,13 @@
+using Microsoft.EntityFrameworkCore;
+
+namespace Data
+{
+    public class LibraryDbContext : DbContext
+    {
+        public LibraryDbContext(DbContextOptions<LibraryDbContext> options) : base(options)
+        {
+        }
+
+        //TODO: write DbSets for entities
+    }
+}
